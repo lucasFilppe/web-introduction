@@ -1,0 +1,44 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #006eff;
+  padding: 0 20px 20px 20px;
+  border: 5px solid white;
+}
+
+html {
+  font-size: 15px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+  font-family: "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */ 
+  color: white;
+}
+
+.link-green{
+  color: greenyellow;
+}
+
+.link-redes-sociais{
+  color: azure;
+}
+
+/*estlizando h3 para a cor azul*/
+h3, ul{
+  color:  rgba(251, 248, 255, 0.637);
+}
+
+/*estlizando um item para a cor vermelha*/
+.li-red{
+  color: rgba(251, 248, 255, 0.637);
+}
+
+/*estilizando imagem*/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+.foto-1{
+  width: 256px;
+  height: 256px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
